@@ -20,11 +20,11 @@ public class Arriver : Kinematic
     }
 
     // Update is called once per frame
-    protected override void Update()
+    protected override void FixedUpdate()
     {
         steeringUpdate = new SteeringOutput();
         steeringUpdate.linear = myMoveType.getSteering().linear;
         steeringUpdate.angular = myRotateType.getSteering().angular;
-        base.Update();
+        base.FixedUpdate();
     }
 }

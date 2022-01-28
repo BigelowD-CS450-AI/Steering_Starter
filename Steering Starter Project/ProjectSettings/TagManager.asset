@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - bird
+  - Path_Border
   layers:
   - Default
   - TransparentFX

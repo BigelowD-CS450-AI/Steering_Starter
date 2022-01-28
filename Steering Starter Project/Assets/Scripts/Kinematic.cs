@@ -24,7 +24,7 @@ public class Kinematic : MonoBehaviour
     }
 
     // Update is called once per frame
-    protected virtual void Update()
+    protected virtual void FixedUpdate()
     {
         // something is breaking my angular velocity
         // check here and reset it if it broke
