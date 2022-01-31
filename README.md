@@ -12,3 +12,9 @@
 - ![#Seperator](https://via.placeholder.com/15/E5FF00/000000?text=+) `Seperator`
 - ![#Wanderer](https://via.placeholder.com/15/1B2B80/000000?text=+) `Wanderer`
 - ![#Path Follower](https://via.placeholder.com/15/FF9000/000000?text=+) `Path Follower`
+
+P.S. The spheres are in there to show debug of what the path follower and wanderer are targeting.
+
+The Path Follower tracks the phyical game object.
+
+The wanderer only updates the game object to show where it is pathing to next.
