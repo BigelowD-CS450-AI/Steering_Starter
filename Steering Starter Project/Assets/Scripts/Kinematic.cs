@@ -10,7 +10,7 @@ public class Kinematic : MonoBehaviour
     // rotation <<< Millington calls this orientation
     // position
     public float maxSpeed = 10.0f;
-    public float maxAngularVelocity = 45.0f; // degrees
+    public float maxAngularVelocity = 145.0f; // degrees
 
     public GameObject myTarget;
 

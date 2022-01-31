@@ -28,6 +28,16 @@ public class Seperator : Kinematic
         steeringUpdate = new SteeringOutput();
         steeringUpdate.linear = myMoveType.getSteering().linear;
         steeringUpdate.angular = myRotateType.getSteering().angular;
+        Vector3 newPos = transform.position;
+        if (transform.position.x > 18)
+            newPos.x = -17.5f;
+        else if (transform.position.x < -18)
+            newPos.x = 17.5f;
+        if (transform.position.z > 13.5)
+            newPos.z = -13;
+        else if (transform.position.z < -13.5)
+            newPos.z = 13;
+        transform.position = newPos;
         base.FixedUpdate();
     }
 }
