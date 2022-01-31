@@ -5,7 +5,7 @@ using UnityEngine;
 public class Pursuer : Kinematic
 {
     Pursue myMoveType;
-    LookWhereGoing myRotateType;
+    Face myRotateType;
 
     public bool evade = false;
 
@@ -16,7 +16,7 @@ public class Pursuer : Kinematic
         myMoveType.character = this;
         myMoveType.target = myTarget;
 
-        myRotateType = new LookWhereGoing();
+        myRotateType = new Face();
         myRotateType.character = this;
         myRotateType.target = myTarget;
     }
